@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  transition: all 0.1s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+}
+
+.landing {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/img/hero/hero_bg.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  color: white;
+  text-transform: uppercase;
+}
+
+.landing h1 {
+  font-size: 95px;
+  font-weight: bold;
+}
+
+.landing span {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+}
+
+header .menu a {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+header .menu a:hover {
+  color: red;
+}
+
+header .logo {
+  width: 65px;
+}
+
+header .menu .tell {
+  background: #a92120;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px white;
+  font-family: "Raleway", sans-serif;
+}
+
+header .menu .tell a:hover {
+  color: white;
+}
+
+header .menu .tell:hover {
+  background: #420505;
+}
+
+.order-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 140px 0 110px;
+}
+
+.order-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.order-section .container h2 {
+  font-size: 60px;
+  color: #a92120;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.order-section .container .order-steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.order-section .container .order-steps div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.order-section .container .order-steps img {
+  width: 150px;
+}
+
+.order-section .container .order-steps div span {
+  font-size: 64px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.menu-section {
+  background-image: url("assets/img/section_our_menu/section_our_menu_bg.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 0 100px;
+}
+
+.menu-section .containar {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menu-section .containar h2 {
+  font-size: 70px;
+  color: #a92120;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu-section .foods {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.menu-section .foods .food {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+}
+
+.menu-section .foods .food:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+.menu-section .foods .food img {
+  width: 352px;
+}
+
+.menu-section .foods .food div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-section .foods .food h3 {
+  font-family: "Economica", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.menu-section .foods .food table td {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #675e54;
+  text-transform: uppercase;
+}
