@@ -212,3 +212,43 @@ header .menu .tell:hover {
   color: #675e54;
   text-transform: uppercase;
 }
+
+.map-section  h2{
+ font-size: 70px;
+  color: #a92120;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.map-section .map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-containar iframe{
+  padding: 24px 0 24px;
+}
+
+footer {
+  background-color: #0a141e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
